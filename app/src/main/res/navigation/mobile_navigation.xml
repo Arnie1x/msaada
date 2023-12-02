@@ -22,4 +22,29 @@
         android:name="com.example.msaada.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/journalFragment"
+        android:name="com.example.msaada.JournalFragment"
+        android:label="fragment_journal"
+        tools:layout="@layout/fragment_journal" />
+    <fragment
+        android:id="@+id/newJournalFragment"
+        android:name="com.example.msaada.NewJournalFragment"
+        android:label="fragment_new_journal"
+        tools:layout="@layout/fragment_new_journal" />
+    <fragment
+        android:id="@+id/resourcesFragment"
+        android:name="com.example.msaada.ResourcesFragment"
+        android:label="fragment_resources"
+        tools:layout="@layout/fragment_resources" />
+    <fragment
+        android:id="@+id/forumFragment"
+        android:name="com.example.msaada.ForumFragment"
+        android:label="fragment_forum"
+        tools:layout="@layout/fragment_forum" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.msaada.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
 </navigation>
