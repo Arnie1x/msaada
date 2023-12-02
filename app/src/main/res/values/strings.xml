@@ -3,6 +3,10 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="title_forum">Forum</string>
+    <string name="title_resources">Resources</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_journals">Journals</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
