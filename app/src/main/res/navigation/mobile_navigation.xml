@@ -14,26 +14,26 @@
     <fragment
         android:id="@+id/journalFragment"
         android:name="com.example.msaada.JournalFragment"
-        android:label="fragment_journal"
+        android:label="@string/title_journals"
         tools:layout="@layout/fragment_journal" />
     <fragment
         android:id="@+id/newJournalFragment"
         android:name="com.example.msaada.NewJournalFragment"
-        android:label="fragment_new_journal"
+        android:label="@string/title_journals"
         tools:layout="@layout/fragment_new_journal" />
     <fragment
         android:id="@+id/resourcesFragment"
         android:name="com.example.msaada.ResourcesFragment"
-        android:label="fragment_resources"
+        android:label="@string/title_resources"
         tools:layout="@layout/fragment_resources" />
     <fragment
         android:id="@+id/forumFragment"
         android:name="com.example.msaada.ForumFragment"
-        android:label="fragment_forum"
+        android:label="@string/title_forum"
         tools:layout="@layout/fragment_forum" />
     <fragment
         android:id="@+id/settingsFragment"
         android:name="com.example.msaada.SettingsFragment"
-        android:label="fragment_settings"
+        android:label="@string/title_settings"
         tools:layout="@layout/fragment_settings" />
 </navigation>

@@ -5,9 +5,48 @@
     android:layout_height="match_parent"
     tools:context=".NewJournalFragment">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/text_margin"
-        android:text="@string/large_text" />
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="262dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Journal Title"
+                    android:textSize="25dp"
+                    tools:textColor="#9C27B0" />
+
+                <TextView
+                    android:id="@+id/date8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|right"
+                    android:text="20:08, 12th Nov"
+                    android:textColor="@color/black"
+                    tools:layout_marginRight="0" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante." />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
 </androidx.core.widget.NestedScrollView>
